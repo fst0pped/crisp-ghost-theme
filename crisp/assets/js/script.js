@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(".post-excerpt").hide();
+	$(".post-title").mouseenter(function(){
+		$(this).parent().children(".post-excerpt").slideDown("fast");
+	});
+	$(".post-title").mouseleave(function(){
+		$(this).parent().children(".post-excerpt").slideUp("fast");
+	});
+});
