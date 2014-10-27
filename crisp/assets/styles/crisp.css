@@ -20,7 +20,7 @@ body {
 header {
 	border-right: 1px #eee solid;
 	padding: 2em;
-	position:fixed;
+	position:absolute;
 	top: 0;
 	left: 0;
 	height:100%;
