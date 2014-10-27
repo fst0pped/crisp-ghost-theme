@@ -1,6 +1,6 @@
 # Crisp 
 
-A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). You can [view it live here](http://kathyqian.com).
+A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). You can view [the original live here](http://kathyqian.com), or [my version live here](http://stuffandnonsense.ghost.io/).
 
 ![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/index.png)   
 
