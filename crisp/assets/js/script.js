@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$(".post-excerpt").hide();
-	$(".post-title").mouseenter(function(){
-		$(this).parent().children(".post-excerpt").slideDown("fast");
+	$(".post").mouseenter(function(){
+		$(this).children(".post-excerpt").slideDown("fast");
 	});
-	$(".post-title").mouseleave(function(){
-		$(this).parent().children(".post-excerpt").slideUp("fast");
+	$(".post").mouseleave(function(){
+		$(this).children(".post-excerpt").slideUp("fast");
 	});
 });
