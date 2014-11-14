@@ -4,6 +4,6 @@ $(document).ready(function(){
 		$(this).children(".post-excerpt").slideDown("fast");
 	});
 	$(".post").mouseleave(function(){
-		$(this).children(".post-excerpt").slideUp("fast");
+		$(this).children(".post-excerpt").slideUp("slow");
 	});
 });

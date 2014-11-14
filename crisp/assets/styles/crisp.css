@@ -8,27 +8,34 @@ html, body {
 	line-height: 1.65em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-	color:#444;
-}
-html {
 	height: 100%;
+	background-color: #ffffff;
 }
-body {
-	padding: 2em 2.5em 1em 20em;
-}                  
+
+#content {
+	padding: 2em 2.5em 1em 17em;
+}
+
+.lighttext, .lighttext a {
+	color: #eef;
+}            
+
 /* Blocks */
 header {
-	border-right: 1px #eee solid;
-	padding: 2em;
+	padding-top: 2em;
+	padding-left: 1.5em;
 	position:absolute;
 	top: 0;
-	left: 0;
-	height:100%;
+	left: 10%; /*Keep this in sync with content left margin*/
+	min-height:100%;
 	width:13.5em;
+	background-color: #26585f;
 }
 #content {
 	display: block;
-	width: 100%;
+	width: auto;
+	margin-left: 10%; /*If adjusting this setting, remember to also adjust the header left positioning*/
+	margin-right: 10%;
 }
 footer {
 	padding: 1em 0em 2.5em 0em;
@@ -83,7 +90,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #3c3cbc; /* Change Link Color */
+	color: #044049; /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -134,18 +141,19 @@ header h1 {
 	margin-bottom:0.6em;
 }
 header h1 a {
-	color:#444;
+	color:#eee;
 }  
 header h1 a:hover {
 	text-decoration:none;
 }
 header #logo img {
+	margin-left: 1em;
 	width:9em;
 	height:9em;
 	border-radius:4.5em;
 	-moz-border-radius: 4.5em;
 	-webkit-border-radius: 4.5em;
-	border: 1px solid #eee;
+	text-align: center;
 }
 #follow-icons {
 	font-size: 0.7em;
@@ -194,7 +202,7 @@ h3.post-title {
 	color: #ccc;
 }
 .taglist a {
-	background-color:#ccc;
+	background-color:#26585f;
 	color:#fff;
 	padding:0.3em 0.6em 0.3em 0.6em;
 	vertical-align:10%;  
@@ -243,12 +251,11 @@ footer a:hover {
 	}
 	header {
 		border-right: none;
-		border-bottom: 1px #eee solid;
-		position:relative;
+		position:static;
 		height:auto;
 		width:auto;
 		text-align:center;
-		padding-bottom:1em;
+		padding-bottom: 1em;
 	}
 	#content {
 		margin-left: 0;
