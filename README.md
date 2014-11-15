@@ -1,21 +1,24 @@
 # Crisp 
 
-A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). You can view [the original live here](http://kathyqian.com), or [my version live here](http://stuffandnonsense.ghost.io/).
+A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) originally by [Kathy Qian](http://kathyqian.com). You can view [Kathy's original live here](http://kathyqian.com), or [my version live here](http://stuffandnonsense.ghost.io/).
 
-![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/index.png)   
+Bear in mind that this theme is a work in progress/playground for me and will be tweaked possible beyond all recognition by the time you see it. As and when it stabilises I'll genericise some of the personal stuff e.g. the left hand category list, but until then what you see is what's live on my blog.
+
+![Index](https://github.com/fst0pped/crisp-ghost-theme/blob/master/index.png)   
 
 ### Required Steps for Installation
 
 1. Download the files
-2. Manually add/remove all links to static pages by copying (or deleting) the code in **crisp/partials/navigation.hbs**    
-3. Replace the `example` disqus_shortname with your shortname on *line 13* of **crisp/post.hbs**, or delete the #comments div to remove comments altogether
-4. Configure the follow buttons in **crisp/partials/follow.hbs** (see section below)
-5. Add the "crisp" folder to the **content/themes** directory of your Ghost installation
-6. Select the theme in the settings page of your Ghost admin panel
+2. Manually add/remove all links to static pages by copying (or deleting) the code in **crisp/partials/navigation.hbs**
+3. Manually add/remove all links to tags by copying or deleting the code in **crisp/partials/categories.hbs**
+4. Replace the `example` disqus_shortname with your shortname on *line 13* of **crisp/post.hbs**, or delete the #comments div to remove comments altogether
+5. Configure the follow buttons in **crisp/partials/follow.hbs** (see section below)
+6. Add the "crisp" folder to the **content/themes** directory of your Ghost installation
+7. Select the theme in the settings page of your Ghost admin panel
 
 ### Suggested Customizations
 
-* Change the link color on *line 86* in **crisp/assets/styles/crisp.css**
+* Change the link color under the **a {...}** section of the file at **crisp/assets/styles/crisp.css** !Remind me to insert line number here once I've stopped fiddling with the stylesheet every 5 mintes!
 * Add code for Google Analytics in **crisp/default.hbs** after `{{ghost_foot}}`
 * Remove irrelevant social sharing services in **crisp/partials/share.hbs**
 * Change your blog logo to change the favicon and the picture in the sidebar (the blog cover is not used)
@@ -28,7 +31,16 @@ I have placed some common buttons in **follow.hbs**, with more options in the co
 
 ### Features, Changelog, and Technical Notes
 
-Below is a summary of updates since the initial release. If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
+###More Screenshots
+
+![Post](https://github.com/fst0pped/crisp-ghost-theme/blob/master/post.png)
+![List of posts in a category](https://github.com/fst0pped/crisp-ghost-theme/blob/master/category_post_list.png)
+
+###And the rest...
+
+######Everything below is as per Kathy's original readme file. I've changed the screenshots to reflect the changes I've made to the style and templates.
+
+If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
 
 This theme has been updated for Ghost 0.4.2 and is compatible with all modern versions of Chrome, Firefox, Safari, and IE9+.
 
@@ -75,9 +87,3 @@ Social sharing buttons are a modified version of the [Ridiculously Responsive So
 ### License
 
 This theme is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) license. Go crazy on the customizations, distribute to your friends, just give me some credit and don't sell my work. Feel free to modify the footer text, though I would really appreciate it if you could keep at least one of the links intact.
-
-### More Screenshots
-
-![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post.png)
-![Post w/Image](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-2.png)
-![Post w/Long Text](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-3.png)
