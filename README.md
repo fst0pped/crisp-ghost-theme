@@ -2,7 +2,7 @@
 
 A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) originally by [Kathy Qian](http://kathyqian.com). You can view [Kathy's original live here](http://kathyqian.com), or [my version live here](http://stuffandnonsense.ghost.io/).
 
-Bear in mind that this theme is a work in progress/playground for me and will be tweaked possible beyond all recognition by the time you see it. As and when it stabilises I'll genericise some of the personal stuff e.g. the left hand category list, but until then what you see is what's live on my blog.
+Bear in mind that this theme is a work in progress/playground for me and will be tweaked possibly beyond all recognition by the time you see it. As and when it stabilises I'll genericise some of the personal stuff e.g. the left hand category list, but until then what you see is what's live on my blog.
 
 ![Index](https://github.com/fst0pped/crisp-ghost-theme/blob/master/index.png)   
 
@@ -29,16 +29,14 @@ Crisp uses Font Awesome for icons. See the Font Awesome documentation for the [f
 
 I have placed some common buttons in **follow.hbs**, with more options in the commented out sections. Make sure to replace the `username` in the URLs so the links point to your profiles. 
 
-### Features, Changelog, and Technical Notes
-
 ###More Screenshots
 
 ![Post](https://github.com/fst0pped/crisp-ghost-theme/blob/master/post.png)
 ![List of posts in a category](https://github.com/fst0pped/crisp-ghost-theme/blob/master/category_post_list.png)
 
-###And the rest...
-
 ######Everything below is as per Kathy's original readme file. I've changed the screenshots to reflect the changes I've made to the style and templates.
+
+### Features, Changelog, and Technical Notes
 
 If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
 
