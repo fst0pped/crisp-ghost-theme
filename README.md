@@ -34,7 +34,7 @@ I have placed some common buttons in **follow.hbs**, with more options in the co
 ![Post](https://github.com/fst0pped/crisp-ghost-theme/blob/master/post.png)
 ![List of posts in a category](https://github.com/fst0pped/crisp-ghost-theme/blob/master/category_post_list.png)
 
-######Everything below is as per Kathy's original readme file. I've changed the screenshots to reflect the changes I've made to the style and templates.
+######Everything below is as per Kathy's original readme file. Pay particular attention to the Licence at the bottom, this is Creative Commons sharealike code.
 
 ### Features, Changelog, and Technical Notes
 
