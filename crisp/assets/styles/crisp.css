@@ -22,6 +22,7 @@ html, body {
 
 /* Blocks */
 header {
+	margin: 0.5em 0em;
 	padding-top: 2em;
 	padding-left: 1.5em;
 	position:absolute;
@@ -200,6 +201,14 @@ h3.post-title {
 	border-bottom: 1px solid #eee;
 }
 
+.post img, iframe {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: 50%;
+}
+
 .post-title .feature-star {
 	font-size: 0.9em;
 }
@@ -257,6 +266,11 @@ footer a:hover {
 	}
 	header {
 		border-right: none;
+		padding-left: 0em;
+		margin: 0em;
+		border-radius:0em;
+		-moz-border-radius: 0em;
+		-webkit-border-radius: 0em;
 		position:static;
 		height:auto;
 		width:auto;
