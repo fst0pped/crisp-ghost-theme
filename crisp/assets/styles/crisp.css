@@ -182,9 +182,7 @@ header h6 {
 	margin-top:0.5em;
 }
 /* Posts */
-#postlist:first-child {
-	font-size: 1.3em
-}
+
 article span.post-stamp {
 	color:#888;     
 }
@@ -195,8 +193,11 @@ h1.post-title {
 }
 h3.post-title {
 	margin-top:0.4em;
-/*	font-size: 1.2em;*/
+	font-size: 1.2em;
 	color: #444;
+}
+#postlist:first-child {
+	font-size: 1.2em;
 }
 .post {
 	padding-bottom:0.9em;
