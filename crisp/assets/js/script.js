@@ -5,10 +5,10 @@ $(document).ready(function(){
 	$('.post:first-child .post-link').css('font-size','2em');
 
 	//control slide animation the reveal excerpts for all posts after the first
-	$(".post").mouseenter(function(){
-		$(this).children(".post-excerpt").stop(true,true).slideDown(200);
-	});
-	$(".post:gt(0)").mouseleave(function(){
-		$(this).children(".post-excerpt").stop(true,true).slideUp(300);
-	});
+//	$(".post").mouseenter(function(){
+//		$(this).children(".post-excerpt").stop(true,true).slideDown(200);
+//	});
+//	$(".post:gt(0)").mouseleave(function(){
+//		$(this).children(".post-excerpt").stop(true,true).slideUp(300);
+//	});
 });
